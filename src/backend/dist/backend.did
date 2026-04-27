@@ -1,0 +1,28 @@
+type ScanResult = 
+ record {
+   breakdown: vec BreakdownItem;
+   riskScore: nat;
+   verdict: text;
+ };
+type ScanRecord = 
+ record {
+   riskScore: nat;
+   timestamp: int;
+   url: text;
+   verdict: text;
+ };
+type BreakdownItem = 
+ record {
+   description: text;
+   detail: text;
+   rule: text;
+   status: text;
+ };
+service : {
+  /// Returns up to `limit` most-recent scans (newest first).
+  /// Pass 0 to get all.
+  getScanHistory: (limit: nat) -> (vec ScanRecord) query;
+  /// Returns up to 20 most-recent phishing/suspicious scans (newest first).
+  getThreatFeed: () -> (vec ScanRecord) query;
+  scanUrl: (url: text) -> (ScanResult);
+}

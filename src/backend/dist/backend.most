@@ -1,0 +1,6 @@
+// Version: 1.0.0
+type ScanRecord__895725331 =
+  {riskScore : Nat; timestamp : Int; url : Text; verdict : Text};
+actor {
+  stable var scanHistory : [ScanRecord__895725331]
+};

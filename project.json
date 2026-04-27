@@ -1,0 +1,24 @@
+{
+  "overview": "A professional, enterprise-grade Fake Website Detection platform with real-time URL scanning powered by client-side heuristic analysis. Features a stunning dark cybersecurity theme with animated scanning effects, detailed threat breakdowns, statistics dashboard, and threat feed — all inspired by academic ML research on phishing detection.",
+  "features": [
+    "Real-time URL scanner with animated scanning visualization",
+    "Risk score 0-100 with Safe/Suspicious/Phishing verdict",
+    "Detailed feature breakdown: SSL, domain, keywords, TLD, typosquatting",
+    "Statistics dashboard: 96% accuracy, 220ms speed, 50K+ sites",
+    "How It Works section with 4-step ML detection explanation",
+    "Capabilities showcase: URL, SSL, domain age, subdomain analysis",
+    "Recent threat feed with 8 demo phishing domains",
+    "Dark cybersecurity theme: navy, electric blue, green/red threat colors",
+    "Animated counters, pulse effects, scanning animations, hover glows"
+  ],
+  "category": "security-tools",
+  "tags": [
+    "cybersecurity",
+    "phishing-detection",
+    "url-scanner",
+    "machine-learning",
+    "threat-intelligence",
+    "dark-theme"
+  ],
+  "last_updated": "2026-04-17T09:26:50.700Z"
+}
